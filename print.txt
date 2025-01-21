@@ -1,8 +1,0 @@
-void print_image(int image[ALT][LARG]) {
-    for(int i = 0; i < ALT; i++) {
-        for(int j = 0; j < LARG; j++) {
-            printf("%d", image[i][j]);
-        }
-    }
-    printf("\n");
-}
